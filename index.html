@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Rostok</title>
+  <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -11,16 +16,16 @@
 <body>
 <header class="header">
   <div class="header__wrap">
-    <a href="/" class="header__logo">
+    <a href="#" class="header__logo">
       <div class="header__logo-wrap">
         <img src="images/logo.png" alt="Rostok">
       </div>
-      <p class="header__logo-descr">Rostok</p>
+      <p class="header__logo-descr">Rost<span class="red">ok</span> </p>
     </a>
     <nav class="header__navigation">
       <ul class="header__menu">
         <li class="header__menu-item">
-          <a href="#" class="header__menu-link">Contact us</a>
+          <a href="#popup" class="header__menu-link open-popup">Contact us</a>
         </li>
       </ul>
     </nav>
@@ -35,7 +40,6 @@
       <div class="footer__logo-wrap">
         <img src="images/logo-f.png" alt="Rostok">
       </div>
-      <p class="footer__logo-descr">Rostok</p>
     </div>
     <div class="footer__links">
       <a  href="https://vk.com/rostok_donetsk" class="footer__link" target="_blank">
@@ -43,8 +47,20 @@
       </a>
     </div>
   </div>
-
 </footer>
+<div id="popup" class="popup mfp-hide">
+  <div class="popup__wrap">
+    <h3 class="popup__title">Our contacts</h3>
+    <p class="popup__descr">Lead of project</p>
+    <a href="tel:+380951111111" class="popup__link">+380951111111</a>
+    <p class="popup__descr">Head of IT department</p>
+    <a href="tel:+380953534649" class="popup__link">+380953534649</a>
+  </div>
+</div>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+<script src="js/magnific-popup.min.js"></script>
 <script src="js/index.js"></script>
 </html>
