@@ -24,8 +24,8 @@ body {
 }
 
 .header__logo-wrap {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
 }
 
 .header__logo-wrap img {
@@ -34,7 +34,7 @@ body {
 }
 
 .header__logo-descr {
-    margin: 25px 0 0 7px;
+    margin: 48px 0 0 0;
     font-size: 30px;
     font-weight: 500;
     font-family: 'Lasco';
@@ -76,7 +76,7 @@ body {
 }
 
 .video {
-    height: 72vh;
+    height: 70vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -96,7 +96,7 @@ body {
 }
 
 .footer {
-    background-color: #31313E;
+    background-color: #000000;
     padding: 25px;
 }
 
